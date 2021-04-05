@@ -14,10 +14,9 @@ void main() {
 
     userScore = roll() + roll();
     botScore = roll() + roll();
-    userTotalScore += userScore;
-    botTotalScore += botScore;
     print("user sum $userScore");
     print("bot sum $botScore");
+    (userScore > botScore) ? userTotalScore++ : botTotalScore++;
   }
 
   if (botTotalScore > userTotalScore) {
@@ -27,6 +26,7 @@ void main() {
   } else {
     print("Game ended in a draw");
   }
+  print("user result: $userTotalScore, bot result: $botTotalScore");
 }
 
 int roll() => Random().nextInt(7);
