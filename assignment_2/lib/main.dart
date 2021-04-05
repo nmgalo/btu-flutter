@@ -10,7 +10,6 @@ void main() {
 
   while (true) {
     stdout.write("type EXIT to exit, press any key to continue: ");
-    // String userChoice = stdin.readLineSync()?.toLowerCase();
     if (stdin.readLineSync()?.toLowerCase() == "exit") break;
 
     userScore = roll() + roll();
