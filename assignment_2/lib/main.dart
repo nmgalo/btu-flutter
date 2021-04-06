@@ -9,7 +9,7 @@ void main() {
   int botScore = 0;
 
   while (true) {
-    stdout.write("type EXIT to exit, press any key to continue: ");
+    stdout.write("type EXIT to exit, press enter to continue: ");
     if (stdin.readLineSync()?.toLowerCase() == "exit") break;
 
     userScore = roll() + roll();
