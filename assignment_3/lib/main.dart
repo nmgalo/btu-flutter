@@ -47,14 +47,17 @@ class _PlanetsPortraitState extends State<PlanetsPortrait> {
   Widget getSwitcherButtons(List<Map<String, String>> items) {
     List<Widget> list = <Widget>[];
     for (var i = 0; i < items.length; i++) {
-      list.add(ElevatedButton(
-        style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all<Color>(Colors.amber),
+      list.add(SizedBox(
+        width: (MediaQuery.of(context).size.width / planets.length) - 25,
+        child: ElevatedButton(
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all<Color>(Colors.amber),
+          ),
+          onPressed: () {
+            setState(() => selectedItem = i);
+          },
+          child: Text(items[i].values.first),
         ),
-        onPressed: () {
-          setState(() => selectedItem = i);
-        },
-        child: Text(items[i].values.first),
       ));
     }
     return new Row(
