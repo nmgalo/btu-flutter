@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488220383422",
+    "project_id": "flutter-midterm-2c573",
+    "storage_bucket": "flutter-midterm-2c573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488220383422:android:749785758c4e8a56c726ef",
+        "android_client_info": {
+          "package_name": "ge.edu.btu.todo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488220383422-ur3rtmfbvc00is5n2s4ft8oh30e578jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVBzLG47Jvy_8zG3_YqRRIt6LGWo_gBR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488220383422-ur3rtmfbvc00is5n2s4ft8oh30e578jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
