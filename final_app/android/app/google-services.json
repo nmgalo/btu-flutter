@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "379581525744",
+    "project_id": "flutter-final-f547c",
+    "storage_bucket": "flutter-final-f547c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379581525744:android:f875eaf17ac14a9ff39c35",
+        "android_client_info": {
+          "package_name": "ge.edu.btu.final_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379581525744-q4k05opbhp2g5j8sflgdo2uc8bfohuja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGixZ1Y8VWwWWrYR5NVXjNMzp5uP87n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379581525744-q4k05opbhp2g5j8sflgdo2uc8bfohuja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "379581525744-brl86mgaskkjo2r7r9kb6grtj3otv8g3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ge.edu.btu.finalApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
